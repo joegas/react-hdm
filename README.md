@@ -6,8 +6,8 @@ Unterlagen für die Veranstaltung Entwicklung von Webapplikationen
 
 ### Components
 
-| | Aufgabe | Lösung |
+| Thema | Aufgabe | Lösung |
 |-|-|-|
-| Übung 1 | link | [Lösung](https://jsfiddle.net/waalzer/027yuLL9/) |
+| Erstellen von Komponenten, Verschachtelung | [Aufgabe](https://jsfiddle.net/waalzer/gvLy3mos/) | [Lösung](https://jsfiddle.net/waalzer/027yuLL9/) |
 | Übung 2 | link | link |
 | Übung 3 | link | link |
