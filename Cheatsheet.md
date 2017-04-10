@@ -14,8 +14,8 @@ var MyButton = React.createClass({
       	return <button>{this.state.name}</button>;
       }
 });
-```
-#### state setzen:
-```javascript
+
+//State setzen:
 this.setState({ name:'Jon' });
+
 ```
