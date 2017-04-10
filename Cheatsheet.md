@@ -9,13 +9,15 @@ var MyButton = React.createClass({
         	name: 'Peter'
         };
       },
+      
+      myFunc: function(){
+	//State setzen:
+	this.setState({ name:'Jon' });
+      },
 			
       render: function(){
       	return <button>{this.state.name}</button>;
       }
 });
-
-//State setzen:
-this.setState({ name:'Jon' });
 
 ```
