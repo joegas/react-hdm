@@ -1,5 +1,11 @@
 # React Cheatsheet
 
+### Hello World
+```jsx
+var element = <h1>Hello World</h1>;
+ReactDOM.render(element, document.body);
+
+```
 ### Component
 ```jsx
 var Component = React.createClass({
