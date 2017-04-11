@@ -1,6 +1,31 @@
-# React.js Cheatsheet für die Übung am 12.04
+# React Cheatsheet
 
-### State:
+### Component
+```javascript
+var Component = React.createClass({
+  render: function () {
+    return <div>Hello Peter</div>;
+  }
+});
+
+ReactDOM.render(<Component />, document.body);
+
+```
+
+### Component + Props
+```javascript
+var Component = React.createClass({
+  render: function () {
+    return <div>Hello {this.props.name}</div>;
+  }
+});
+
+ReactDOM.render(<Component name="Peter" />, document.body);
+
+```
+
+
+### State
 ```javascript
 var MyButton = React.createClass({
 			
@@ -11,7 +36,7 @@ var MyButton = React.createClass({
       },
       
       myFunc: function(){
-	//State setzen:
+	// State setzen
 	this.setState({ name:'Jon' });
       },
 			
