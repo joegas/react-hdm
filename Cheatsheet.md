@@ -1,7 +1,7 @@
 # React Cheatsheet
 
 ### Component
-```javascript
+```jsx
 var Component = React.createClass({
   render: function () {
     return <div>Hello Peter</div>;
@@ -13,7 +13,7 @@ ReactDOM.render(<Component />, document.body);
 ```
 
 ### Component + Props
-```javascript
+```jsx
 var Component = React.createClass({
   render: function () {
     return <div>Hello {this.props.name}</div>;
@@ -26,7 +26,7 @@ ReactDOM.render(<Component name="Peter" />, document.body);
 
 
 ### Nesting Components
-```javascript
+```jsx
 var User = React.createClass({...});
 var Text = React.createClass({...});
 
@@ -44,23 +44,23 @@ var Info = React.createClass({
 
 
 ### State
-```javascript
+```jsx
 var MyButton = React.createClass({
 			
-      getInitialState: function(){
-      	return {
-      	  name: 'Peter'
-        };
-      },
+  getInitialState: function(){
+    return {
+      name: 'Peter'
+    };
+  },
       
-      myFunc: function(){
-	// State setzen
-	this.setState({ name:'Jon' });
-      },
+  myFunc: function(){
+     // State setzen
+     this.setState({ name:'Jon' });
+  },
 			
-      render: function(){
-      	return <button>{this.state.name}</button>;
-      }
+  render: function(){
+    return <button>{this.state.name}</button>;
+  }
 });
 
 ```
