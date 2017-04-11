@@ -25,13 +25,31 @@ ReactDOM.render(<Component name="Peter" />, document.body);
 ```
 
 
+### Nesting Components
+```javascript
+var User = React.createClass({...});
+var Text = React.createClass({...});
+
+var Info = React.createClass({
+  render() {
+    return <div>
+      <User />
+      <Text />
+    </div>;
+  }
+});
+
+```
+
+
+
 ### State
 ```javascript
 var MyButton = React.createClass({
 			
       getInitialState: function(){
       	return {
-        	name: 'Peter'
+      	  name: 'Peter'
         };
       },
       
