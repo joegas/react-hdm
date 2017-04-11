@@ -46,7 +46,8 @@ var Info = React.createClass({
 ### State
 ```jsx
 var MyButton = React.createClass({
-			
+
+  // Initialzustand setzen
   getInitialState: function(){
     return {
       name: 'Peter'
@@ -54,11 +55,12 @@ var MyButton = React.createClass({
   },
       
   myFunc: function(){
-     // State setzen
+     // State aktualisieren
      this.setState({ name:'Jon' });
   },
 			
   render: function(){
+    // Auf State greift man über this.state zu
     return <button>{this.state.name}</button>;
   }
 });
