@@ -41,7 +41,21 @@ var Info = React.createClass({
 
 ```
 
+### Events
+```jsx
+var Button = React.createClass({
+	
+	handleClick: function(e){
+		// e is ein SyntheticEvent (cross-browser-kompatibel)
+		alert('Hello!');
+	},
+	render: function(){
+		// Mit dem Attribut onClick die Funktion übergeben
+		return <button onClick={this.handleClick}>Say hello.</button>;
+	}
+});
 
+```
 
 ### State
 ```jsx
