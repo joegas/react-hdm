@@ -33,8 +33,24 @@ node.js installieren
 
 # Block 2 + 3 (19.04.)
 
+* Github Repo: (https://github.com/joegas/todo-app-react)
+
 ## Agenda
 
-* React und ES6
+* Rückblick
+* ES6
+* Events + States + Props
 * Installation React
-* Entwicklung einer kleinen Anwendung
+* Todo App
+* Ausblick
+
+## Übungen
+
+1. List
+
+2. Lifecycle
+
+3. Forms
+
+4. Ajax 
+
