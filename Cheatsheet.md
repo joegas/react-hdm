@@ -185,3 +185,32 @@ class MyButton extends Component{
 }
 
 ```
+
+### Lifecycle
+
+```jsx
+class Clock extends React.Component{
+	constructor(){
+  	super();
+    this.state = {
+    	time : new Date()
+    }
+  }
+  
+  componentDidMount(){
+  	this.timer = setInterval(() => this.tick(), 1000);
+  }
+  
+  componentWillUnmount(){
+  	clearInterval(this.timer);
+  }
+  
+  tick(){
+  	this.setState({time : new Date()});
+  }
+	
+  render(){
+  	return <h2>{this.state.time.toLocaleTimeString()}</h2>
+  }
+}
+```
