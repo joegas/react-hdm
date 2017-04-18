@@ -182,6 +182,6 @@ class MyButton extends Component{
     // Auf State greift man über this.state zu
     return <button>{this.state.name}</button>;
   }
-});
+}
 
 ```
