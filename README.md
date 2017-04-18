@@ -33,7 +33,7 @@ node.js installieren
 
 # Block 2 + 3 (19.04.)
 
-* Github Repo: (https://github.com/joegas/todo-app-react)
+* Github Repo: https://github.com/joegas/todo-app-react
 
 ## Agenda
 
