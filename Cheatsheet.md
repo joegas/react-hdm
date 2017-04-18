@@ -6,7 +6,7 @@ var element = <h1>Hello World</h1>;
 ReactDOM.render(element, document.body);
 
 ```
-### Component
+### Components
 
 #### ES5
 
@@ -119,7 +119,7 @@ var Button = React.createClass({
 
 ```jsx
 class Button extends Component{
-	
+	//...
 	handleClick(e){
 		// e is ein SyntheticEvent (cross-browser-kompatibel)
 		alert('Hello!');
@@ -190,11 +190,12 @@ class MyButton extends Component{
 
 ```jsx
 class Clock extends React.Component{
-	constructor(){
-  	super();
-    this.state = {
-    	time : new Date()
-    }
+
+  constructor(props){
+  	super(props);
+	this.state = {
+    		time : new Date()
+    	}
   }
   
   componentDidMount(){
