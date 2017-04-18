@@ -52,3 +52,9 @@ node.js installieren
 | 2 | Component Lifecycle | exercise-2 |
 | 3 | Forms | exercise-3 |
 | 4 | AJAX | exercise-4 / exercise-5 (Lösung) |
+
+### git - Basics
+```
+$ git clone https://github.com/joegas/todo-app-react // Repo holen
+$ git checkout <branch> // Branch checkout
+```
