@@ -7,9 +7,9 @@ ReactDOM.render(element, document.body);
 
 ```
 ### Component
-| ES5 | ES6 |
-| - | - |
-|
+
+#### ES5
+
 ```jsx
 var Component = React.createClass({
   render: function () {
@@ -19,8 +19,9 @@ var Component = React.createClass({
 
 ReactDOM.render(<Component />, document.body);
 
-``` |
-|
+```
+
+#### ES6
 ```jsx
 class Component extends Component{
   render() {
@@ -29,7 +30,7 @@ class Component extends Component{
 };
 
 ReactDOM.render(<Component />, document.body);
-``` |
+``` 
 
 
 ### Component + Props
