@@ -23,8 +23,8 @@
 | 1 | JSX & Conditional rendering | [Aufgabe](https://jsfiddle.net/Valioesi/yzd2b3az/3/) | [Lösung](https://jsfiddle.net/Valioesi/2046oeh9/4/) |
 | 2 | Komponenten & Verschachtelung | [Aufgabe](https://jsfiddle.net/waalzer/gvLy3mos/) | [Lösung](https://jsfiddle.net/waalzer/027yuLL9/) |
 | 3 | Attribute als Props übergeben | [Aufgabe](https://jsfiddle.net/waalzer/yckvt9xn/) | [Lösung](https://jsfiddle.net/waalzer/udp0s8ma/) |
-| 4.1 | Events | [Aufgabe](https://jsfiddle.net/joegas/dq45x838/) | [Lösung](https://jsfiddle.net/joegas/9o90yyh7/) |
-| 4.2 | State | [Aufgabe](https://jsfiddle.net/joegas/9o90yyh7/) | [Lösung](https://jsfiddle.net/joegas/kwwo9gLd/) |
+| 4.1 | Events | [Aufgabe](https://jsfiddle.net/joegas/4c5rokk2/) | [Lösung](https://jsfiddle.net/joegas/mvLvuph8/) |
+| 4.2 | State | [Aufgabe](https://jsfiddle.net/joegas/mvLvuph8/) | [Lösung](https://jsfiddle.net/joegas/4f98r4ez/) |
 
 ## Hausaufgabe
 
