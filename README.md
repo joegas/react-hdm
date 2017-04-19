@@ -46,12 +46,12 @@ node.js installieren
 
 * Repository: https://github.com/joegas/todo-app-react
 
-| | Übung | Branch (für Zwischenstand) |
+| | Übung | Branch mit Zwischenstand |
 |-|-|-|
 | 1 | List | master |
 | 2 | Component Lifecycle | exercise-2 |
 | 3 | Forms | exercise-3 |
-| 4 | AJAX | exercise-4 / exercise-5 (Lösung) |
+| 4 | AJAX | exercise-4 / exercises-final-result (Lösung) |
 
 ### git - Basics
 ```
