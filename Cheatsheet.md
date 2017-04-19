@@ -289,7 +289,7 @@ https://facebook.github.io/react-native/docs/network.html
 fetch("http://todo.jecode.de/todos")
   .then(response => response.json())
   .then(json => {
-    alert(json);
+    alert(json); // success
    });
 ```
 
@@ -303,5 +303,7 @@ fetch('https://mywebsite.com/endpoint/', {
     firstParam: 'yourValue',
     secondParam: 'yourOtherValue',
   })
-})
+}).then(
+     alert('success')
+   );
 ```
