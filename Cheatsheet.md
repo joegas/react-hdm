@@ -185,6 +185,32 @@ class MyButton extends Component{
 }
 
 ```
+### Lists
+
+```jsx
+// Im Konstruktor ein Array als State anlegen
+  constructor() {
+    super();
+    this.state = {
+      todos: [
+        {id: "1", text: "To Do 1"},
+        {id: "2", text: "To Do 2"}
+      ]
+    }
+  }
+  
+  
+// Mit der Map-Funktion das Array als Liste ausgeben und eindeutige keys definieren
+  render() {
+    return (
+        <ul>
+        {this.state.todos.map(item => (
+            <li key={item.id}>{item.text}</li>
+        ))}
+        </ul>
+    );
+  }
+```
 
 ### Lifecycle
 
