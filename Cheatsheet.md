@@ -126,7 +126,7 @@ class Button extends Component{
 	},
 	render(){
 		// Mit dem Attribut onClick die Funktion übergeben
-		return <button onClick={this.handleClick}>Say hello.</button>;
+		return <button onClick={this.handleClick.bind(this)}>Say hello.</button>;
 	}
 }
 
