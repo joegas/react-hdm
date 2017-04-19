@@ -250,3 +250,32 @@ class NameForm extends React.Component {
     );
   }
 }
+```
+
+### fetch()
+
+https://facebook.github.io/react-native/docs/network.html
+
+#### GET
+
+```javascript
+
+fetch("http://todo.jecode.de/todos")
+  .then(response => response.json())
+  .then(json => {
+    alert(json);
+   });
+```
+
+#### POST
+
+```javascript
+
+fetch('https://mywebsite.com/endpoint/', {
+  method: 'POST',
+  body: JSON.stringify({
+    firstParam: 'yourValue',
+    secondParam: 'yourOtherValue',
+  })
+})
+```
